@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Awake', 'Drowsy']
+
+roboflow:
+  workspace: vision-mwhb7
+  project: drowsiness-snmhf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vision-mwhb7/drowsiness-snmhf/dataset/1
